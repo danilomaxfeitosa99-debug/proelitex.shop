@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cozinha Lilita | Tradição e Sabor Caseiro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <a href="https://google.com">Cozinha <span>Lilita</span></a>
+            </div>
+            <nav id="nav">
+                <button id="btn-mobile" aria-label="Abrir Menu" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+                    <span id="hamburger"></span>
+                </button>
+                <ul id="menu" role="menu">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#servicos">Nossos Serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <span class="badge">Sabor de Casa</span>
+                <h1>O Tempero que Você Conhece e Confia</h1>
+                <p>Levamos o melhor da comida caseira para o seu dia a dia. Pratos feitos com ingredientes frescos, receitas tradicionais e aquele toque especial que só a Cozinha Lilita tem.</p>
+                <div class="hero-btns">
+                    <a href="https://google.com" class="btn btn-primary">Ver Cardápio</a>
+                    <a href="https://google.com" class="btn btn-outline">Fazer Pedido</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-img">
+                    <a href="https://google.com">
+                        <img src="https://images.unsplash.com/photo-1547592166-23ac45744acd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Cozinha Caseira">
+                    </a>
+                </div>
+                <div class="about-text">
+                    <h2>Tradição em Cada Prato</h2>
+                    <p>A Cozinha Lilita LTDA nasceu da paixão por cozinhar e do desejo de compartilhar o verdadeiro sabor da comida feita com amor.</p>
+                    <p>Localizada em Catas Altas, MG, nossa cozinha é um reflexo da hospitalidade mineira, onde cada cliente é tratado como parte da família.</p>
+                    <div class="features">
+                        <div class="feature-item">
+                            <strong>Receitas de Família</strong>
+                            <p>O autêntico sabor caseiro.</p>
+                        </div>
+                        <div class="feature-item">
+                            <strong>Produtos Locais</strong>
+                            <p>Apoio aos produtores da região.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>O Que Oferecemos</h2>
+                <p>Qualidade e sabor para todas as ocasiões.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="icon">🥘</div>
+                    <h3>Almoço Executivo</h3>
+                    <p>Refeições completas e balanceadas para o seu dia de trabalho.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">🍲</div>
+                    <h3>Comida Congelada</h3>
+                    <p>Praticidade com o mesmo sabor da comida feita na hora.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">🥧</div>
+                    <h3>Doces & Salgados</h3>
+                    <p>Quitutes artesanais para lanches e pequenas reuniões.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">🚚</div>
+                    <h3>Delivery Rápido</h3>
+                    <p>Sua comida favorita entregue quentinha na sua porta.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2>Fale com a Lilita</h2>
+                    <p>Estamos prontos para atender você com o melhor da nossa cozinha.</p>
+                    <div class="info-list">
+                        <div class="info-item">
+                            <strong>Razão Social:</strong>
+                            <p>Cozinha Lilita LTDA</p>
+                        </div>
+                        <div class="info-item">
+                            <strong>CNPJ:</strong>
+                            <p>65.120.979/0001-87</p>
+                        </div>
+                        <div class="info-item">
+                            <strong>Localização:</strong>
+                            <p>Catas Altas, MG</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form id="contact-form" onsubmit="return false;">
+                        <div class="form-group">
+                            <input type="text" placeholder="Seu Nome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Seu E-mail" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Como podemos ajudar você hoje?" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 Cozinha Lilita. O sabor que você ama.</p>
+                <div class="footer-links">
+                    <a href="https://google.com">Privacidade</a>
+                    <a href="https://google.com">Termos</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
